@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Conversor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body onLoad="module.paginaInicial()">
+        <div>      
+            <center >
+                <h1>CONVERSOR TEMPERATURA </h1>
+            </center> 
+            
+            <br><br>
+            <center>
+                <h3>Convierte los grados entre Centigrados y Fahrenheit </h3>
+            </center>
+            
+            <div >
+                <div>
+                    <br><br><br><br><br><br><br><br>
+                    <h3>Para convertir de grados centígrados a Fahrenheit</h3>
+                    <h4>Ingrese los grados Centigrados:</h4>
+                    <input type="number" id="centigrados" name="centigrados">
+                    <input type="button" class='signupbtn' value="Convertir" id="consultar" name="consultarF" onclick= "module.calcularCaF()">
+                    <div id="ocultoC" style="visibility:hidden">
+                        Respuesta
+                    </div> 
+                    <br><br><br><br>
+
+                    <h3>Para convertir de grados Fahrenheit a centígrados</h3>
+                    <h4>Ingrese los grados Fahrenheit:</h4>
+                    <input type="number" id="fahrenheit" name="fahrenheit">
+                    <input type="button" value="Convertir" id="consultar" name="consultarC" onclick="module.calcularFaC()">
+                    <div id="ocultoF" style="visibility:hidden">
+                        Respuesta
+                    </div> 
+         
+                </div>
+                <br><br><br><br>
+            </div>
+        </div>
+    </body>
+</html>
+
