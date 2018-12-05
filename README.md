@@ -1,3 +1,3 @@
 # Parcial
 
-https://github.com/MiguelRmar/Parcial.git
+https://desolate-dawn-10641.herokuapp.com/
